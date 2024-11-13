@@ -3,6 +3,9 @@ import IMatrixMultiplication
 
 class StrassenWinograd(IMatrixMultiplication):
 
+    def __init__(self, some_param = None):
+        self.some_param = some_param
+
     def max(self, a, b):
         return a if a > b else b
     

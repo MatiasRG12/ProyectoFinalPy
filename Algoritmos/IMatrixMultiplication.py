@@ -3,5 +3,5 @@ from abc import ABC, abstractmethod
 class IMatrixMultiplication(ABC):
 
     @abstractmethod
-    def Multiply(self, matrizA, matrizB):
+    def multiply(self, matrizA, matrizB):
         pass

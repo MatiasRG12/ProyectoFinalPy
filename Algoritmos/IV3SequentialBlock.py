@@ -2,6 +2,10 @@ import IMatrixMultiplication
 
 class IV3SequentialBlock(IMatrixMultiplication):
 
+    def __init__(self, some_param = None):
+        self.some_param = some_param
+
+
     def v3SequentialBlock(self, matrizA, matrizB, size1, size2):
         matrizRes = [[0.0 for _ in range(size1)] for _ in range(size1)]
         for i1 in range(0, size1, size2):

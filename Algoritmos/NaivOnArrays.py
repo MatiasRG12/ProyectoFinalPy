@@ -2,6 +2,9 @@ import IMatrixMultiplication
 
 class NaivOnArray(IMatrixMultiplication):
 
+    def __init__(self, some_param = None):
+        self.some_param = some_param
+
     def algNaivOnArray(self, matrizA, matrizB, N, P, M):
         matrizRes = [[0.0 for _ in range(M)] for _ in range(N)]
         for i in range(N):

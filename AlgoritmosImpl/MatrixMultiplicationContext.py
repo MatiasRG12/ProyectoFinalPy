@@ -1,5 +1,7 @@
 import time
-from Algoritmos import StrassenNaiv, WinogradOriginal #Terminar de importar las clases
+from Algoritmos import StrassenNaiv, WinogradOriginal, IV3SequentialBlock, NaivLoopUnrollingFour, NaivLoopUnrollingTwo, NaivOnArrays, V3SequentialBloc, V4ParallelBlock, StrassenWinograd, WinogradScaled
+from Algoritmos import IMatrixMultiplication
+
 
 class MatrixMultiplicationContext:
     def __init__(self, nombre_algoritmo):
@@ -7,7 +9,15 @@ class MatrixMultiplicationContext:
         self._diccionario = {
             "StrassenNaiv": StrassenNaiv(),
             "WinogradOriginal": WinogradOriginal(),
-            # Agrega aquí el resto de implementaciones...
+            "IMatrixMultiplication": IMatrixMultiplication(),
+            "IV3SequentialBlock": IV3SequentialBlock(),
+            "NaivLoopUnrollingFour": NaivLoopUnrollingFour(),
+            "NaivLoopUnrollingTwo": NaivLoopUnrollingTwo(),
+            "NaivOnArrays": NaivOnArrays(),
+            "V3SequentialBlock": V3SequentialBloc(),
+            "V4ParallelBlock": V4ParallelBlock(),
+            "StrassenWinograd": StrassenWinograd(),
+            "WinogradScaled": WinogradScaled()
         }
         self._algorithm = self._diccionario[nombre_algoritmo]
 

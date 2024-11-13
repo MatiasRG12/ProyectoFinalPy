@@ -3,6 +3,9 @@ import IMatrixMultiplication
 
 class WinogradScaled(IMatrixMultiplication):
 
+    def __init__(self, some_param = None):
+        self.some_param = some_param
+
     def multiply_with_scalar(self, matrix, scalar):
         n, m = len(matrix), len(matrix[0])
         result = [[matrix[i][j] * scalar for j in range(m)] for i in range(n)]

@@ -2,6 +2,9 @@ import IMatrixMultiplication
 
 class v3SequentialBlock(IMatrixMultiplication):
 
+    def __init__(self, some_param = None):
+        self.some_param = some_param
+
     def alg_V_3_Sequential_Block(self, matrizA, matrizB, size1, size2):
         # Inicialización de la matriz de resultados
         matrizRes = [[0.0 for _ in range(size1)] for _ in range(size1)]

@@ -1,7 +1,10 @@
 import math
-import IMatrixMultiplication
+from IMatrixMultiplication import IMatrixMultiplication
 
 class StrassenNaiv(IMatrixMultiplication):
+
+    def __init__(self, some_param = None):
+        self.some_param = some_param
 
     def max(self, N, P):
         return P if N < P else N

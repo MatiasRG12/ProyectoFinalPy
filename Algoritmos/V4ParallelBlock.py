@@ -3,6 +3,9 @@ import IMatrixMultiplication
 
 class v4ParallelBlock(IMatrixMultiplication):
 
+    def __init__(self, some_param = None):
+        self.some_param = some_param
+
     def block_multiply(self, matrizA, matrizB, matrizC, i1, size1, size2):
         for j1 in range(0, size1, size2):
             for k1 in range(0, size1, size2):

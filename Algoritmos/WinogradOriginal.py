@@ -2,6 +2,9 @@ import IMatrixMultiplication
 
 class WinogradOriginal(IMatrixMultiplication):
     
+    def __init__(self, some_param = None):
+        self.some_param = some_param
+    
     def alg_winograd_original(self, matrizA, matrizB, N, P, M):
         upsilon = P % 2
         gamma = P - upsilon
