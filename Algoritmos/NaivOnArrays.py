@@ -1,6 +1,6 @@
-import IMatrixMultiplication
+from Algoritmos.IMatrixMultiplication import IMatrixMultiplication
 
-class NaivOnArray(IMatrixMultiplication):
+class NaivOnArrays(IMatrixMultiplication):
 
     def __init__(self, some_param = None):
         self.some_param = some_param
@@ -17,4 +17,4 @@ class NaivOnArray(IMatrixMultiplication):
         N = len(matrizA)
         P = len(matrizB)
         M = len(matrizB[0])
-        self.algNaivOnArray(matrizA, matrizB, N, P, M)
+        return self.algNaivOnArray(matrizA, matrizB, N, P, M)

@@ -1,5 +1,5 @@
 import plotly.graph_objects as go
-from Utils import Constants
+from Utils.Constants import Constants
 
 class Plot:
     @staticmethod

@@ -1,5 +1,5 @@
 import math
-import IMatrixMultiplication
+from Algoritmos.IMatrixMultiplication import IMatrixMultiplication
 
 class StrassenWinograd(IMatrixMultiplication):
 
@@ -133,3 +133,4 @@ class StrassenWinograd(IMatrixMultiplication):
         M = len(B[0])
         C = [[0] * M for _ in range(N)]
         self.algStrassenWinograd(A, B, C, N, P, M)
+        return C

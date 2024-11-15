@@ -1,5 +1,5 @@
 import math
-import IMatrixMultiplication
+from Algoritmos.IMatrixMultiplication import IMatrixMultiplication
 
 class WinogradScaled(IMatrixMultiplication):
 
@@ -72,5 +72,5 @@ class WinogradScaled(IMatrixMultiplication):
         N = len(matrizA)
         P = len(matrizB)
         M = len(matrizB[0])
-        self.alg_winograd_scaled(matrizA, matrizB, N, P, M)
+        return self.alg_winograd_scaled(matrizA, matrizB, N, P, M)
 

@@ -1,4 +1,4 @@
-import IMatrixMultiplication
+from Algoritmos.IMatrixMultiplication import IMatrixMultiplication
 
 class NaivLoopUnrollingTwo(IMatrixMultiplication):
 
@@ -29,4 +29,4 @@ class NaivLoopUnrollingTwo(IMatrixMultiplication):
         N = len(matrizA)
         P = len(matrizB)
         M = len(matrizB[0])
-        self.algNaivLoopUnrollingTwo(matrizA, matrizB, N, P, M)
+        return self.algNaivLoopUnrollingTwo(matrizA, matrizB, N, P, M)

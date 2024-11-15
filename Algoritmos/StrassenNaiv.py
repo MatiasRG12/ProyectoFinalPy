@@ -1,5 +1,5 @@
 import math
-from IMatrixMultiplication import IMatrixMultiplication
+from Algoritmos.IMatrixMultiplication import IMatrixMultiplication
 
 class StrassenNaiv(IMatrixMultiplication):
 
@@ -139,7 +139,7 @@ class StrassenNaiv(IMatrixMultiplication):
             # Standard naive algorithm for small matrices
             self.algoritmoNaivStandard(matrizA, matrizB, matrizRes, N, N, N)
 
-    def algoritmoNaivStandard(matrizA, matrizB, matrizRes, N, P, M):
+    def algoritmoNaivStandard(self, matrizA, matrizB, matrizRes, N, P, M):
         for i in range(N):
             for j in range(M):
                 aux = 0.0

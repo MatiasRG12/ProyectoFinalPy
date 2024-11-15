@@ -1,4 +1,4 @@
-import IMatrixMultiplication
+from Algoritmos.IMatrixMultiplication import IMatrixMultiplication
 
 class NaivLoopUnrollingFour(IMatrixMultiplication):
 
@@ -54,5 +54,5 @@ class NaivLoopUnrollingFour(IMatrixMultiplication):
         N = len(matrizA)
         P = len(matrizB)
         M = len(matrizB[0])
-        self.algNaivLoopUnrollingFour(matrizA, matrizB, N, P, M)
+        return self.algNaivLoopUnrollingFour(matrizA, matrizB, N, P, M)
 

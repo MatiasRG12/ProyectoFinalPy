@@ -1,4 +1,4 @@
-import IMatrixMultiplication
+from Algoritmos.IMatrixMultiplication import IMatrixMultiplication
 
 class IV3SequentialBlock(IMatrixMultiplication):
 
@@ -15,8 +15,9 @@ class IV3SequentialBlock(IMatrixMultiplication):
                         for j in range(j1, min(j1 + size2, size1)):
                             for k in range(k1, min(k1 + size2, size1)):
                                 matrizRes[i][j] += matrizA[i][k] * matrizB[k][j]
+        return matrizRes
 
     def multiply(self,matrizA, matrizB):
         N = len(matrizA)
         P = len(matrizB[0])
-        self.v3SequentialBlock(matrizA, matrizB, N, P)
+        return self.v3SequentialBlock(matrizA, matrizB, N, P)

@@ -1,7 +1,7 @@
 from concurrent.futures import ThreadPoolExecutor
-import IMatrixMultiplication
+from Algoritmos.IMatrixMultiplication import IMatrixMultiplication
 
-class v4ParallelBlock(IMatrixMultiplication):
+class V4ParallelBlock(IMatrixMultiplication):
 
     def __init__(self, some_param = None):
         self.some_param = some_param
@@ -30,4 +30,4 @@ class v4ParallelBlock(IMatrixMultiplication):
     def multiply(self, matrizA, matrizB):
         N = len(matrizA)
         P = len(matrizB[0])
-        self.alg_V_4_ParallelBlockTres(matrizA, matrizB, N, P)
+        return self.alg_V_4_ParallelBlockTres(matrizA, matrizB, N, P)

@@ -1,6 +1,15 @@
 import time
-from Algoritmos import StrassenNaiv, WinogradOriginal, IV3SequentialBlock, NaivLoopUnrollingFour, NaivLoopUnrollingTwo, NaivOnArrays, V3SequentialBloc, V4ParallelBlock, StrassenWinograd, WinogradScaled
-from Algoritmos import IMatrixMultiplication
+from Algoritmos.StrassenNaiv import StrassenNaiv
+from Algoritmos.WinogradOriginal import WinogradOriginal
+from Algoritmos.IV3SequentialBlock import IV3SequentialBlock
+from Algoritmos.NaivLoopUnrollingFour import NaivLoopUnrollingFour
+from Algoritmos.NaivLoopUnrollingTwo import NaivLoopUnrollingTwo
+from Algoritmos.NaivOnArrays import NaivOnArrays
+from Algoritmos.V3SequentialBlock import V3SequentialBlock
+from Algoritmos.V4ParallelBlock import V4ParallelBlock
+from Algoritmos.StrassenWinograd import StrassenWinograd
+from Algoritmos.WinogradScaled import WinogradScaled
+from Algoritmos.IMatrixMultiplication import IMatrixMultiplication
 
 
 class MatrixMultiplicationContext:
@@ -9,12 +18,11 @@ class MatrixMultiplicationContext:
         self._diccionario = {
             "StrassenNaiv": StrassenNaiv(),
             "WinogradOriginal": WinogradOriginal(),
-            "IMatrixMultiplication": IMatrixMultiplication(),
             "IV3SequentialBlock": IV3SequentialBlock(),
             "NaivLoopUnrollingFour": NaivLoopUnrollingFour(),
             "NaivLoopUnrollingTwo": NaivLoopUnrollingTwo(),
             "NaivOnArrays": NaivOnArrays(),
-            "V3SequentialBlock": V3SequentialBloc(),
+            "V3SequentialBlock": V3SequentialBlock(),
             "V4ParallelBlock": V4ParallelBlock(),
             "StrassenWinograd": StrassenWinograd(),
             "WinogradScaled": WinogradScaled()

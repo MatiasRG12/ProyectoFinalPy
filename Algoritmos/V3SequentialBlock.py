@@ -1,6 +1,6 @@
-import IMatrixMultiplication
+from Algoritmos.IMatrixMultiplication import IMatrixMultiplication
 
-class v3SequentialBlock(IMatrixMultiplication):
+class V3SequentialBlock(IMatrixMultiplication):
 
     def __init__(self, some_param = None):
         self.some_param = some_param
@@ -23,5 +23,5 @@ class v3SequentialBlock(IMatrixMultiplication):
     def multiply(self, matrizA, matrizB):
         N = len(matrizA)
         P = len(matrizB[0])
-        self.alg_V_3_Sequential_Block(matrizA, matrizB, N, P)
+        return self.alg_V_3_Sequential_Block(matrizA, matrizB, N, P)
 
