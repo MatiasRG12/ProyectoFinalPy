@@ -1,0 +1,140 @@
+Execution Time (StrassenNaiv): 0.00 ms
+1388052688673.0 1118535095610.0 1513644802245.0 2054695648571.0
+1235866326537.0 962955299297.0 1315121353346.0 1823775220049.0
+629742380011.0 361967868308.0 562845224607.0 735269694922.0
+1414475943510.0 907818468358.0 1273259701226.0 1800601869030.0
+
+------------------------------------------------
+Execution Time (StrassenNaiv): 0.00 ms
+Execution Time (StrassenNaiv): 4.47 ms
+Execution Time (StrassenNaiv): 0.00 ms
+Execution Time (StrassenNaiv): 16.29 ms
+Execution Time (StrassenNaiv): 78.55 ms
+Execution Time (StrassenNaiv): 488.18 ms
+Execution Time (StrassenNaiv): 2598.52 ms
+Execution Time (StrassenWinograd): 0.00 ms
+1388052688673.0 1118535095610.0 1513644802245.0 2054695648571.0
+1235866326537.0 962955299297.0 1315121353346.0 1823775220049.0
+629742380011.0 361967868308.0 562845224607.0 735269694922.0
+1414475943510.0 907818468358.0 1273259701226.0 1800601869030.0
+
+------------------------------------------------
+Execution Time (StrassenWinograd): 0.00 ms
+Execution Time (StrassenWinograd): 0.00 ms
+Execution Time (StrassenWinograd): 8.02 ms
+Execution Time (StrassenWinograd): 16.78 ms
+Execution Time (StrassenWinograd): 58.53 ms
+Execution Time (StrassenWinograd): 352.92 ms
+Execution Time (StrassenWinograd): 3201.47 ms
+Execution Time (WinogradOriginal): 0.00 ms
+1388052688673.0 1118535095610.0 1513644802245.0 2054695648571.0
+1235866326537.0 962955299297.0 1315121353346.0 1823775220049.0
+629742380011.0 361967868308.0 562845224607.0 735269694922.0
+1414475943510.0 907818468358.0 1273259701226.0 1800601869030.0
+
+------------------------------------------------
+Execution Time (WinogradOriginal): 0.00 ms
+Execution Time (WinogradOriginal): 0.00 ms
+Execution Time (WinogradOriginal): 0.00 ms
+Execution Time (WinogradOriginal): 8.57 ms
+Execution Time (WinogradOriginal): 70.65 ms
+Execution Time (WinogradOriginal): 364.37 ms
+Execution Time (WinogradOriginal): 3273.76 ms
+Execution Time (WinogradScaled): 0.00 ms
+1388052688673.0 1118535095610.0 1513644802245.0 2054695648571.0
+1235866326537.0 962955299297.0 1315121353346.0 1823775220049.0
+629742380011.0 361967868308.0 562845224607.0 735269694922.0
+1414475943510.0 907818468358.0 1273259701226.0 1800601869030.0
+
+------------------------------------------------
+Execution Time (WinogradScaled): 0.00 ms
+Execution Time (WinogradScaled): 0.00 ms
+Execution Time (WinogradScaled): 2.03 ms
+Execution Time (WinogradScaled): 13.57 ms
+Execution Time (WinogradScaled): 89.73 ms
+Execution Time (WinogradScaled): 407.28 ms
+Execution Time (WinogradScaled): 3702.97 ms
+Execution Time (NaivLoopUnrollingFour): 0.00 ms
+0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0
+
+------------------------------------------------
+Execution Time (NaivLoopUnrollingFour): 0.00 ms
+Execution Time (NaivLoopUnrollingFour): 0.00 ms
+Execution Time (NaivLoopUnrollingFour): 1.06 ms
+Execution Time (NaivLoopUnrollingFour): 5.41 ms
+Execution Time (NaivLoopUnrollingFour): 43.97 ms
+Execution Time (NaivLoopUnrollingFour): 305.86 ms
+Execution Time (NaivLoopUnrollingFour): 3232.98 ms
+Execution Time (NaivLoopUnrollingTwo): 0.00 ms
+1388052688673.0 1118535095610.0 1513644802245.0 2054695648571.0
+1235866326537.0 962955299297.0 1315121353346.0 1823775220049.0
+629742380011.0 361967868308.0 562845224607.0 735269694922.0
+1414475943510.0 907818468358.0 1273259701226.0 1800601869030.0
+
+------------------------------------------------
+Execution Time (NaivLoopUnrollingTwo): 0.00 ms
+Execution Time (NaivLoopUnrollingTwo): 0.00 ms
+Execution Time (NaivLoopUnrollingTwo): 1.74 ms
+Execution Time (NaivLoopUnrollingTwo): 6.17 ms
+Execution Time (NaivLoopUnrollingTwo): 45.74 ms
+Execution Time (NaivLoopUnrollingTwo): 386.62 ms
+Execution Time (NaivLoopUnrollingTwo): 3616.17 ms
+Execution Time (NaivOnArrays): 0.00 ms
+1388052688673.0 1118535095610.0 1513644802245.0 2054695648571.0
+1235866326537.0 962955299297.0 1315121353346.0 1823775220049.0
+629742380011.0 361967868308.0 562845224607.0 735269694922.0
+1414475943510.0 907818468358.0 1273259701226.0 1800601869030.0
+
+------------------------------------------------
+Execution Time (NaivOnArrays): 0.00 ms
+Execution Time (NaivOnArrays): 0.00 ms
+Execution Time (NaivOnArrays): 0.00 ms
+Execution Time (NaivOnArrays): 9.74 ms
+Execution Time (NaivOnArrays): 71.56 ms
+Execution Time (NaivOnArrays): 651.99 ms
+Execution Time (NaivOnArrays): 5277.08 ms
+Execution Time (V3SequentialBlock): 0.00 ms
+1388052688673.0 1118535095610.0 1513644802245.0 2054695648571.0
+1235866326537.0 962955299297.0 1315121353346.0 1823775220049.0
+629742380011.0 361967868308.0 562845224607.0 735269694922.0
+1414475943510.0 907818468358.0 1273259701226.0 1800601869030.0
+
+------------------------------------------------
+Execution Time (V3SequentialBlock): 0.00 ms
+Execution Time (V3SequentialBlock): 0.00 ms
+Execution Time (V3SequentialBlock): 1.72 ms
+Execution Time (V3SequentialBlock): 18.51 ms
+Execution Time (V3SequentialBlock): 74.10 ms
+Execution Time (V3SequentialBlock): 682.32 ms
+Execution Time (V3SequentialBlock): 8237.19 ms
+Execution Time (V4ParallelBlock): 31.28 ms
+1388052688673.0 1118535095610.0 1513644802245.0 2054695648571.0
+1235866326537.0 962955299297.0 1315121353346.0 1823775220049.0
+629742380011.0 361967868308.0 562845224607.0 735269694922.0
+1414475943510.0 907818468358.0 1273259701226.0 1800601869030.0
+
+------------------------------------------------
+Execution Time (V4ParallelBlock): 24.06 ms
+Execution Time (V4ParallelBlock): 11.46 ms
+Execution Time (V4ParallelBlock): 0.00 ms
+Execution Time (V4ParallelBlock): 33.70 ms
+Execution Time (V4ParallelBlock): 128.46 ms
+Execution Time (V4ParallelBlock): 1329.08 ms
+Execution Time (V4ParallelBlock): 9697.90 ms
+Execution Time (IV3SequentialBlock): 0.00 ms
+1388052688673.0 1118535095610.0 1513644802245.0 2054695648571.0
+1235866326537.0 962955299297.0 1315121353346.0 1823775220049.0
+629742380011.0 361967868308.0 562845224607.0 735269694922.0
+1414475943510.0 907818468358.0 1273259701226.0 1800601869030.0
+
+------------------------------------------------
+Execution Time (IV3SequentialBlock): 0.00 ms
+Execution Time (IV3SequentialBlock): 0.00 ms
+Execution Time (IV3SequentialBlock): 5.02 ms
+Execution Time (IV3SequentialBlock): 150.60 ms
+Execution Time (IV3SequentialBlock): 169.63 ms
+Execution Time (IV3SequentialBlock): 1221.05 ms
+Execution Time (IV3SequentialBlock): 9336.94 ms
